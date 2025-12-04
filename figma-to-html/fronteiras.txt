@@ -1,0 +1,209 @@
+================================================================================
+                    MAPA DE FRONTEIRAS - JOGO WAR
+================================================================================
+
+LEGENDA:
+  [ID] Nome do Território → Lista de Vizinhos (Fronteiras)
+  * = Conexão Intercontinental
+
+================================================================================
+                          AMÉRICA DO NORTE
+================================================================================
+
+[v1_107] Ottawa
+  └─ Fronteiras: Vancouver, Labrador, Nova Iorque, Groenlândia
+
+[v1_108] Vancouver
+  └─ Fronteiras: Ottawa, Mackenzie, Alaska, Califórnia
+
+[v1_109] Mackenzie
+  └─ Fronteiras: Vancouver, Alaska, Groenlândia
+
+[v1_110] Alaska
+  └─ Fronteiras: Vancouver, Mackenzie, Vladvostok*
+  └─ CONEXÃO INTERCONTINENTAL: Asia (Vladvostok)
+
+[v1_111] Labrador
+  └─ Fronteiras: Ottawa, Nova Iorque, Groenlândia
+
+[v1_112] Califórnia
+  └─ Fronteiras: Vancouver, Mexico, Nova Iorque
+
+[v1_113] Mexico
+  └─ Fronteiras: Califórnia, Nova Iorque, Colômbia*
+  └─ CONEXÃO INTERCONTINENTAL: América do Sul (Colômbia)
+
+[v1_114] Nova Iorque
+  └─ Fronteiras: Ottawa, Labrador, Califórnia, Mexico
+
+[v1_115] Groenlândia
+  └─ Fronteiras: Ottawa, Mackenzie, Labrador, Islandia*
+  └─ CONEXÃO INTERCONTINENTAL: Europa (Islandia)
+
+================================================================================
+                          AMÉRICA DO SUL
+================================================================================
+
+[v1_117] Colômbia
+  └─ Fronteiras: Mexico*, Brasil, Chile
+  └─ CONEXÃO INTERCONTINENTAL: América do Norte (Mexico)
+
+[v1_118] Brasil
+  └─ Fronteiras: Colômbia, Argentina, Chile, Argélia*
+  └─ CONEXÃO INTERCONTINENTAL: Africa (Argélia)
+
+[v1_119] Argentina
+  └─ Fronteiras: Brasil, Chile
+
+[v1_120] Chile
+  └─ Fronteiras: Colômbia, Brasil, Argentina
+
+================================================================================
+                              OCEANIA
+================================================================================
+
+[v1_122] Borneo
+  └─ Fronteiras: Australia, Sumatra, Nova Guiné
+
+[v1_123] Australia
+  └─ Fronteiras: Borneo, Nova Guiné
+
+[v1_124] Sumatra
+  └─ Fronteiras: Borneo, Vietnã*, India*
+  └─ CONEXÕES INTERCONTINENTAIS: Asia (Vietnã, India)
+
+[v1_125] Nova Guiné
+  └─ Fronteiras: Borneo, Australia
+
+================================================================================
+                               ÁSIA
+================================================================================
+
+[v1_127] Japão
+  └─ Fronteiras: China, Vladvostok
+
+[v1_128] Oriente Medio
+  └─ Fronteiras: Aral, India, Argélia*, Egito*, Sudão*
+  └─ CONEXÕES INTERCONTINENTAIS: Africa (Argélia, Egito, Sudão)
+
+[v1_129] Aral
+  └─ Fronteiras: Oriente Medio, China, India, Omsk
+
+[v1_130] China
+  └─ Fronteiras: Japão, Aral, Vietnã, Vladvostok, Mongólia, Sibéria, Thita
+
+[v1_131] Vietnã
+  └─ Fronteiras: Sumatra*, China, India
+  └─ CONEXÃO INTERCONTINENTAL: Oceania (Sumatra)
+
+[v1_132] India
+  └─ Fronteiras: Sumatra*, Oriente Medio, Aral, Vietnã
+  └─ CONEXÃO INTERCONTINENTAL: Oceania (Sumatra)
+
+[v1_133] Vladvostok
+  └─ Fronteiras: Alaska*, Japão, China, Mongólia, Sibéria
+  └─ CONEXÃO INTERCONTINENTAL: América do Norte (Alaska)
+
+[v1_134] Mongólia
+  └─ Fronteiras: China, Vladvostok, Sibéria, Thita
+
+[v1_135] Omsk
+  └─ Fronteiras: Aral, Dudinka, Sibéria, Russia*
+  └─ CONEXÃO INTERCONTINENTAL: Europa (Russia)
+
+[v1_136] Dudinka
+  └─ Fronteiras: Omsk, Sibéria, Russia*
+  └─ CONEXÃO INTERCONTINENTAL: Europa (Russia)
+
+[v1_137] Sibéria
+  └─ Fronteiras: China, Vladvostok, Mongólia, Omsk, Dudinka, Thita
+
+[v1_138] Thita
+  └─ Fronteiras: China, Mongólia, Sibéria
+
+================================================================================
+                              ÁFRICA
+================================================================================
+
+[v1_140] Madagascar
+  └─ Fronteiras: Sudão, Congo, Africa do Sul
+
+[v1_141] Argélia
+  └─ Fronteiras: Brasil*, Oriente Medio*, Egito, Sudão, Congo
+  └─ CONEXÕES INTERCONTINENTAIS: América do Sul (Brasil), Asia (Oriente Medio)
+
+[v1_142] Egito
+  └─ Fronteiras: Oriente Medio*, Argélia, Sudão, Polonia*
+  └─ CONEXÕES INTERCONTINENTAIS: Asia (Oriente Medio), Europa (Polonia)
+
+[v1_143] Sudão
+  └─ Fronteiras: Oriente Medio*, Madagascar, Argélia, Egito, Congo, Africa do Sul
+  └─ CONEXÃO INTERCONTINENTAL: Asia (Oriente Medio)
+
+[v1_144] Congo
+  └─ Fronteiras: Madagascar, Argélia, Sudão, Africa do Sul
+
+[v1_145] Africa do Sul
+  └─ Fronteiras: Madagascar, Sudão, Congo
+
+================================================================================
+                              EUROPA
+================================================================================
+
+[v1_147] Islandia
+  └─ Fronteiras: Groenlândia*, Inglaterra
+  └─ CONEXÃO INTERCONTINENTAL: América do Norte (Groenlândia)
+
+[v1_148] Inglaterra
+  └─ Fronteiras: Islandia, França, Alemanha, Suecia
+
+[v1_149] França
+  └─ Fronteiras: Inglaterra, Alemanha, Polonia
+
+[v1_150] Alemanha
+  └─ Fronteiras: Inglaterra, França, Suecia, Polonia
+
+[v1_151] Suecia
+  └─ Fronteiras: Inglaterra, Alemanha, Polonia, Russia
+
+[v1_152] Polonia
+  └─ Fronteiras: Egito*, França, Alemanha, Suecia, Russia
+  └─ CONEXÃO INTERCONTINENTAL: Africa (Egito)
+
+[v1_153] Russia
+  └─ Fronteiras: Omsk*, Dudinka*, Suecia, Polonia
+  └─ CONEXÕES INTERCONTINENTAIS: Asia (Omsk, Dudinka)
+
+================================================================================
+                    RESUMO DE CONEXÕES INTERCONTINENTAIS
+================================================================================
+
+1.  Alaska (América do Norte) ←→ Vladvostok (Asia)
+2.  Mexico (América do Norte) ←→ Colômbia (América do Sul)
+3.  Groenlândia (América do Norte) ←→ Islandia (Europa)
+4.  Brasil (América do Sul) ←→ Argélia (Africa)
+5.  Sumatra (Oceania) ←→ Vietnã (Asia)
+6.  Sumatra (Oceania) ←→ India (Asia)
+7.  Oriente Medio (Asia) ←→ Argélia (Africa)
+8.  Oriente Medio (Asia) ←→ Egito (Africa)
+9.  Oriente Medio (Asia) ←→ Sudão (Africa)
+10. Omsk (Asia) ←→ Russia (Europa)
+11. Dudinka (Asia) ←→ Russia (Europa)
+12. Egito (Africa) ←→ Polonia (Europa)
+
+================================================================================
+                         ESTATÍSTICAS DO MAPA
+================================================================================
+
+Total de Territórios: 42
+  • América do Norte: 9 territórios
+  • América do Sul: 4 territórios
+  • Oceania: 4 territórios
+  • Asia: 12 territórios
+  • Africa: 6 territórios
+  • Europa: 7 territórios
+
+Total de Fronteiras: ~120 (cada fronteira conta uma vez)
+Conexões Intercontinentais: 12
+
+================================================================================

@@ -3,24 +3,35 @@
 }
 body {
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
-.v4_2 {
+.mapa {
   width: 100%;
+  max-width: 1500px;
   height: 777px;
   background: url("../images/v4_2.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   opacity: 1;
   position: relative;
+  flex-shrink: 0;
+  counter-reset: rect;
   top: 0px;
   left: 0px;
-  overflow: hidden;
+  overflow: visible;
 }
-.v1_106 {
+
+/* ===== AMÉRICA DO NORTE ===== */
+.america-do-norte {
   width: 531px;
   height: 425px;
-  background: url("../images/v1_106.png");
+  background: url("../images/Continente/_Continentes/America\ do\ Norte.svg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -29,101 +40,95 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_107 {
-  width: 87px;
-  height: 104px;
-  background: rgba(254,162,0,1);
+.ottawa {
+  aspect-ratio: 87 / 104;
+  background: url("../images/Continente/America do Norte/Ottawa.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 124px;
   left: 161px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_108 {
-  width: 123px;
-  height: 78px;
-  background: rgba(254,162,0,1);
+.vancouver {
+  aspect-ratio: 123 / 78;
+  background: url("../images/Continente/America do Norte/Vancouver.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 105px;
   left: 63px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_109 {
-  width: 240px;
-  height: 69px;
-  background: rgba(254,162,0,1);
+.mackenzie {
+  aspect-ratio: 240 / 69;
+  background: url("../images/Continente/America\ do\ Norte/Mackenzie.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 60px;
   left: 68px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_110 {
-  width: 142px;
-  height: 78px;
-  background: rgba(254,162,0,1);
+.alaska {
+  aspect-ratio: 142 / 78;
+  background: url("../images/Continente/America do Norte/Alaska.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 37px;
   left: 0px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_111 {
-  width: 101px;
-  height: 103px;
-  background: rgba(254,162,0,1);
+.labrador {
+  aspect-ratio: 101 / 103;
+  background: url("../images/Continente/America do Norte/Labrador.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 124px;
   left: 241px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_112 {
-  width: 155px;
-  height: 103px;
-  background: rgba(254,162,0,1);
+.california {
+  aspect-ratio: 155 / 103;
+  background: url("../images/Continente/America do Norte/California.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 170px;
   left: 17px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_113 {
-  width: 196px;
-  height: 163px;
-  background: rgba(254,162,0,1);
+.mexico {
+  aspect-ratio: 196 / 163;
+  background: url("../images/Continente/America do Norte/Mexico.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 262px;
   left: 24px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_114 {
-  width: 203px;
-  height: 134px;
-  background: rgba(254,162,0,1);
+.nova-iorque {
+  aspect-ratio: 203 / 134;
+  background: url("../images/Continente/America do Norte/Nova\ Iorque.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 191px;
   left: 71px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_115 {
-  width: 193px;
-  height: 161px;
-  background: rgba(254,162,0,1);
+.groenlandia {
+  aspect-ratio: 193 / 161;
+  background: url("../images/Continente/America do Norte/Groenlandia.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 338px;
-  border: 1px solid rgba(194,86,40,1);
+  border: none !important;
 }
-.v1_116 {
+
+/* ===== AMÉRICA DO SUL ===== */
+.america-do-sul {
   width: 227px;
   height: 377px;
-  background: url("../images/v1_116.png");
+  background: url("../images/Continente/_Continentes/America\ do\ Sul.svg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -132,51 +137,50 @@ body {
   top: 400px;
   left: 138px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_117 {
-  width: 134px;
-  height: 89px;
-  background: rgba(166,231,0,1);
+.colombia {
+  aspect-ratio: 134 / 89;
+  background: url("../images/Continente/America do Sul/Colombia.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 15px;
-  border: 1px solid rgba(29,74,22,1);
+  border: none !important;
 }
-.v1_118 {
-  width: 190px;
-  height: 227px;
-  background: rgba(166,231,0,1);
+.brasil {
+  aspect-ratio: 190 / 227;
+  background: url("../images/Continente/America do Sul/Brasil.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 44px;
   left: 37px;
-  border: 1px solid rgba(29,74,22,1);
+  border: none !important;
 }
-.v1_119 {
-  width: 79px;
-  height: 177px;
-  background: rgba(166,231,0,1);
+.argentina {
+  aspect-ratio: 79 / 177;
+  background: url("../images/Continente/America do Sul/Argentina.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 190px;
   left: 67px;
-  border: 1px solid rgba(29,74,22,1);
+  border: none !important;
 }
-.v1_120 {
-  width: 124px;
-  height: 318px;
-  background: rgba(166,231,0,1);
+.chile {
+  aspect-ratio: 124 / 318;
+  background: url("../images/Continente/America do Sul/Chile.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 59px;
   left: 0px;
-  border: 1px solid rgba(29,74,22,1);
+  border: none !important;
 }
-.v1_121 {
+
+/* ===== OCEANIA ===== */
+.oceania {
   width: 275px;
   height: 262px;
-  background: url("../images/v1_121.png");
+  background: url("../images/Continente/_Continentes/Oceania.svg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -185,51 +189,50 @@ body {
   top: 491px;
   left: 939px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_122 {
-  width: 81px;
-  height: 81px;
-  background: rgba(218,60,107,1);
+.borneo {
+  aspect-ratio: 81 / 81;
+  background: url("../images/Continente/Oceania/Borneo.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 87px;
-  border: 1px solid rgba(133,24,88,1);
+  border: none !important;
 }
-.v1_123 {
-  width: 185px;
-  height: 166px;
-  background: rgba(218,60,107,1);
+.australia {
+  aspect-ratio: 185 / 166;
+  background: url("../images/Continente/Oceania/Australia.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 96px;
   left: 13px;
-  border: 1px solid rgba(133,24,88,1);
+  border: none !important;
 }
-.v1_124 {
-  width: 75px;
-  height: 93px;
-  background: rgba(218,60,107,1);
+.sumatra {
+  aspect-ratio: 75 / 93;
+  background: url("../images/Continente/Oceania/Sumatra.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 6px;
   left: 0px;
-  border: 1px solid rgba(133,24,88,1);
+  border: none !important;
 }
-.v1_125 {
-  width: 92px;
-  height: 77px;
-  background: rgba(218,60,107,1);
+.nova-guine {
+  aspect-ratio: 92 / 77;
+  background: url("../images/Continente/Oceania/Nova\ Guine.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 41px;
   left: 183px;
-  border: 1px solid rgba(133,24,88,1);
+  border: none !important;
 }
-.v1_126 {
+
+/* ===== ÁSIA ===== */
+.asia {
   width: 556px;
   height: 480px;
-  background: url("../images/v1_126.png");
+  background: url("../images/Continente/_Continentes/Asia.svg") no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -238,131 +241,122 @@ body {
   top: 22px;
   left: 658px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_127 {
-  width: 42px;
-  height: 89px;
-  background: url("../images/v1_127.png");
+.japao {
+  aspect-ratio: 42 / 89;
+  background: url("../images/Continente/Asia/Japao.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 240px;
   left: 492px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_128 {
-  width: 167px;
-  height: 163px;
-  background: rgba(255,232,3,1);
+.oriente-medio {
+  aspect-ratio: 167 / 163;
+  background: url("../images/Continente/Asia/Oriente\ Medio.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 248px;
   left: 0px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_129 {
-  width: 130px;
-  height: 107px;
-  background: rgba(255,232,1,1);
+.aral {
+  aspect-ratio: 130 / 107;
+  background: url("../images/Continente/Asia/Aral.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 181px;
   left: 101px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_130 {
-  width: 236px;
-  height: 197px;
-  background: rgba(255,232,1,1);
+.china {
+  aspect-ratio: 236 / 197;
+  background: url("../images/Continente/Asia/China.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 191px;
   left: 206px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_131 {
-  width: 84px;
-  height: 134px;
-  background: rgba(255,232,1,1);
+.vietna {
+  aspect-ratio: 84 / 134;
+  background: url("../images/Continente/Asia/Vietna.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 346px;
   left: 312px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_132 {
-  width: 166px;
-  height: 171px;
-  background: rgba(255,232,1,1);
+.india {
+  aspect-ratio: 166 / 171;
+  background: url("../images/Continente/Asia/India.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 276px;
   left: 156px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_133 {
-  width: 264px;
-  height: 246px;
-  background: rgba(255,232,1,1);
+.vladvostok {
+  aspect-ratio: 264 / 246;
+  background: url("../images/Continente/Asia/Vladvostok.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 54px;
   left: 293px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_134 {
-  width: 138px;
-  height: 63px;
-  background: rgba(255,232,1,1);
+.mongolia {
+  aspect-ratio: 138 / 63;
+  background: url("../images/Continente/Asia/Mongolia.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 202px;
   left: 237px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_135 {
-  width: 174px;
-  height: 220px;
-  background: rgba(255,232,1,1);
+.omsk {
+  aspect-ratio: 174 / 220;
+  background: url("../images/Continente/Asia/Omsk.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 30px;
   left: 78px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_136 {
-  width: 167px;
-  height: 212px;
-  background: rgba(255,232,1,1);
+.dudinka {
+  aspect-ratio: 167 / 212;
+  background: url("../images/Continente/Asia/Dudinka.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 112px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_137 {
-  width: 153px;
-  height: 123px;
-  background: rgba(255,232,1,1);
+.siberia {
+  aspect-ratio: 153 / 123;
+  background: url("../images/Continente/Asia/Siberia.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 31px;
   left: 213px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_138 {
-  width: 180px;
-  height: 81px;
-  background: rgba(255,232,1,1);
+.tchita {
+  aspect-ratio: 180 / 81;
+  background: url("../images/Continente/Asia/Tchita.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 127px;
   left: 214px;
-  border: 1px solid rgba(199,155,47,1);
+  border: none !important;
 }
-.v1_139 {
+
+/* ===== ÁFRICA ===== */
+.africa {
   width: 314px;
   height: 396px;
-  background: url("../images/v1_139.png");
+  background: url("../images/Continente/_Continentes/Africa.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -371,71 +365,68 @@ body {
   top: 290px;
   left: 460px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_140 {
-  width: 45px;
-  height: 74px;
-  background: rgba(127,100,184,1);
+.madagascar {
+  aspect-ratio: 45 / 74;
+  background: url("../images/Continente/Africa/Madagascar.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 283px;
   left: 260px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_141 {
-  width: 150px;
-  height: 189px;
-  background: rgba(127,100,184,1);
+.argelia {
+  aspect-ratio: 150 / 189;
+  background: url("../images/Continente/Africa/Argelia.svg") no-repeat center center;
   opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_142 {
-  width: 122px;
-  height: 81px;
-  background: rgba(127,100,184,1);
+.egito {
+  aspect-ratio: 122 / 81;
+  background: url("../images/Continente/Africa/Egito.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 21px;
   left: 126px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_143 {
-  width: 182px;
-  height: 195px;
-  background: rgba(129,99,184,1);
+.sudao {
+  aspect-ratio: 182 / 195;
+  background: url("../images/Continente/Africa/Sudao.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 85px;
   left: 132px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_144 {
-  width: 107px;
-  height: 123px;
-  background: rgba(129,99,184,1);
+.congo {
+  aspect-ratio: 107 / 123;
+  background: url("../images/Continente/Africa/Congo.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 182px;
   left: 115px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_145 {
-  width: 136px;
-  height: 131px;
-  background: rgba(127,100,184,1);
+.africa-do-sul {
+  aspect-ratio: 136 / 131;
+  background: url("../images/Continente/Africa/Africa\ do\ Sul.svg") no-repeat center center;
   opacity: 1;
   position: absolute;
   top: 265px;
   left: 126px;
-  border: 1px solid rgba(66,40,91,1);
+  border: none !important;
 }
-.v1_146 {
+
+/* ===== EUROPA ===== */
+.europa {
   width: 336px;
   height: 261px;
-  background: url("../images/v1_146.png");
+  background: url("../images/Continente/_Continentes/Europa.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -444,74 +435,129 @@ body {
   top: 44px;
   left: 455px;
   overflow: hidden;
+  border: none !important;
 }
-.v1_147 {
-  width: 47px;
-  height: 29px;
-  background: rgba(34,157,220,1);
+.islandia {
+  aspect-ratio: 47 / 29;
+  background: url("../images/Continente/Europa/Islandia.svg");
   opacity: 1;
   position: absolute;
   top: 75px;
   left: 29px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_148 {
-  width: 48px;
-  height: 48px;
-  background: rgba(34,157,220,1);
+.inglaterra {
+  aspect-ratio: 48 / 48;
+  background: url("../images/Continente/Europa/Inglaterra.svg");
   opacity: 1;
   position: absolute;
   top: 125px;
   left: 0px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_149 {
-  width: 115px;
-  height: 90px;
-  background: rgba(34,157,220,1);
+.franca {
+  aspect-ratio: 115 / 90;
+  background: url("../images/Continente/Europa/França.svg");
   opacity: 1;
   position: absolute;
   top: 157px;
   left: 57px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_150 {
-  width: 55px;
-  height: 92px;
-  background: rgba(34,157,220,1);
+.alemanha {
+  aspect-ratio: 55 / 92;
+  background: url("../images/Continente/Europa/Alemanha.svg");
   opacity: 1;
   position: absolute;
   top: 109px;
   left: 108px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_151 {
-  width: 109px;
-  height: 109px;
-  background: rgba(34,157,220,1);
+.suecia {
+  aspect-ratio: 109 / 109;
+  background: url("../images/Continente/Europa/Suecia.svg");
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 106px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_152 {
-  width: 74px;
-  height: 130px;
-  background: rgba(34,157,220,1);
+.polonia {
+  aspect-ratio: 74 / 130;
+  background: url("../images/Continente/Europa/Polonia.svg");
   opacity: 1;
   position: absolute;
   top: 131px;
   left: 150px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
 }
-.v1_153 {
-  width: 168px;
-  height: 243px;
-  background: rgba(34,157,220,1);
+.russia {
+  aspect-ratio: 168 / 243;
+  background: url("../images/Continente/Europa/Russia.svg");
   opacity: 1;
   position: absolute;
   top: 15px;
   left: 169px;
-  border: 1px solid rgba(10,106,174,1);
+  border: none !important;
+}
+
+/* ===== SISTEMA DE BADGES COM NOMES ===== */
+/* Para elementos com data-name, mostra o nome ao invés de número */
+.mapa { counter-reset: rect; }
+
+/* Regra geral para todos os territórios - permite que SVGs usem suas dimensões naturais */
+.mapa [data-name]:not(.mapa) {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Contêineres de continentes não devem incrementar o contador nem mostrar badge */
+.mapa .america-do-norte::after,
+.mapa .america-do-sul::after,
+.mapa .oceania::after,
+.mapa .asia::after,
+.mapa .africa::after,
+.mapa .europa::after {
+  content: none;
+  display: none;
+}
+
+/* Elementos com data-name mostram o nome no badge */
+.mapa [data-name]::after {
+  content: attr(data-name);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 3px 7px;
+  border-radius: 3px;
+  z-index: 9999;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* Tooltip ao passar o mouse */
+.mapa [data-name] {
+  cursor: pointer;
+}
+.mapa [data-name]:hover::before {
+  content: attr(data-name);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 13px;
+  white-space: nowrap;
+  border-radius: 4px;
+  z-index: 10000;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }

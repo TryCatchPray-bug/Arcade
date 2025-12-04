@@ -1,0 +1,675 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v4_2 {
+  width: 100%;
+  height: 777px;
+  background: url("../images/v4_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  counter-reset: rect;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1_106 {
+  /* Continente: America do Norte  -> .v1_106*/
+  width: 531px;
+  height: 425px;
+  background: url("../images/Continente/_Continentes/America\ do\ Norte.svg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1_107 {
+  /* 1 _ Pais: Ottawa  -> .v1_107*/
+  width: 87px;
+  height: 104px;
+  background: url("../images/Continente/America do Norte/Ottawa.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 124px;
+  left: 161px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_108 {
+  /* 2 _ Pais: Vancouver  -> .v1_108*/
+  width: 123px;
+  height: 78px;
+  background: url("../images/Continente/America do Norte/Vancouver.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 105px;
+  left: 63px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_109 {
+  /* 3 _ Pais: Mackenzie  -> .v1_109*/
+  width: 240px;
+  height: 69px;
+  background: url("../images/Continente/America do Norte/Mackenzie.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 60px;
+  left: 68px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_110 {
+  /* 4 _ Pais: Alaska  -> .v1_110*/
+  width: 142px;
+  height: 78px;
+  background: url("../images/Continente/America do Norte/Alaska.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_111 {
+  /* 5 _ Pais: Labrador  -> .v1_111*/
+  width: 101px;
+  height: 103px;
+  background: url("../images/Continente/America do Norte/Labrador.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 124px;
+  left: 241px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_112 {
+  /* 6 _ Pais: Califórnia  -> .v1_112*/
+  width: 155px;
+  height: 103px;
+  background: url("../images/Continente/America do Norte/Califórnia.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 170px;
+  left: 17px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_113 {
+  /* 7 _ Pais: Mexico  -> .v1_113*/
+  width: 196px;
+  height: 163px;
+  background: url("../images/Continente/America do Norte/Mexico.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 262px;
+  left: 24px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_114 {
+  /* 8 _ Pais: Nova Iorque  -> .v1_114*/
+  width: 203px;
+  height: 134px;
+  background: url("../images/Continente/America do Norte/Nova\ Iorque.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 191px;
+  left: 71px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_115 {
+  /* 9 _ Pais: Groenlândia  -> .v1_115*/
+  width: 193px;
+  height: 161px;
+  background: url("../images/Continente/America do Norte/Groenlândia.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 338px;
+  border: 1px solid rgba(194,86,40,1);
+}
+.v1_116 {
+  /* Continente: America do Sul  -> .v1_116*/
+  width: 227px;
+  height: 377px;
+  background: url("../images/Continente/_Continentes/America\ do\ Sul.svg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 138px;
+  overflow: hidden;
+}
+.v1_117 {
+  /* 10 _ Pais: Colômbia  -> .v1_117*/
+  width: 134px;
+  height: 89px;
+  background: url("../images/Continente/America\ do\ Sul/Colômbia.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  border: 1px solid rgba(29,74,22,1);
+}
+.v1_118 {
+  /* 11 _ Pais: Brasil  -> .v1_118*/
+  width: 190px;
+  height: 227px;
+  background: url("../images/Continente/America\ do\ Sul/Brasil.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 37px;
+  border: 1px solid rgba(29,74,22,1);
+}
+.v1_119 {
+  /* 12 _ Pais: Argentina  -> .v1_119*/
+  width: 79px;
+  height: 177px;
+  background: url("../images/Continente/America\ do\ Sul/Argentina.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 190px;
+  left: 67px;
+  border: 1px solid rgba(29,74,22,1);
+}
+.v1_120 {
+  /* 13 _ Pais: Chile  -> .v1_120*/
+  width: 124px;
+  height: 318px;
+  background: url("../images/Continente/America\ do\ Sul/Chile.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  border: 1px solid rgba(29,74,22,1);
+}
+.v1_121 {
+  /* Continente: Oceania  -> .v1_121*/
+  width: 275px;
+  height: 262px;
+  background: url("../images/Continente/_Continentes/Oceania.svg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 491px;
+  left: 939px;
+  overflow: hidden;
+}
+.v1_122 {
+  /* 14 _ Pais: Borneo  -> .v1_122*/
+  width: 81px;
+  height: 81px;
+  background: url("../images/Continente/Oceania/Borneo.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 87px;
+  border: 1px solid rgba(133,24,88,1);
+}
+.v1_123 {
+  /* 15 _ Pais: Australia  -> .v1_123*/
+  width: 185px;
+  height: 166px;
+  background: url("../images/Continente/Oceania/Australia.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 13px;
+  border: 1px solid rgba(133,24,88,1);
+}
+.v1_124 {
+  /* 16 _ Pais: Sumatra  -> .v1_124*/
+  width: 75px;
+  height: 93px;
+  background: url("../images/Continente/Oceania/Sumatra.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  border: 1px solid rgba(133,24,88,1);
+}
+.v1_125 {
+  /* 17 _ Pais: Nova Guiné  -> .v1_125*/
+  width: 92px;
+  height: 77px;
+  background: url("../images/Continente/Oceania/Nova\ Guiné.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 41px;
+  left: 183px;
+  border: 1px solid rgba(133,24,88,1);
+}
+.v1_126 {
+  /* Continente: Asia  -> .v1_126*/
+  width: 556px;
+  height: 480px;
+  background: url("../images/Continente/_Continentes/Asia.svg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 658px;
+  overflow: hidden;
+}
+.v1_127 {
+  /* 18 _ Pais: Japão  -> .v1_127*/
+  width: 42px;
+  height: 89px;
+  background: url("../images/Continente/Asia/Japão.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: 492px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_128 {
+  /* 19 _ Pais: Oriente Medio  -> .v1_128*/
+  width: 167px;
+  height: 163px;
+  background: url("../images/Continente/Asia/Oriente\ Medio.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 248px;
+  left: 0px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_129 {
+  /* 20 _ Pais: Aral  -> .v1_129*/
+  width: 130px;
+  height: 107px;
+  background: url("../images/Continente/Asia/Aral.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 181px;
+  left: 101px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_130 {
+  /* 21 _ Pais: China  -> .v1_130*/
+  width: 236px;
+  height: 197px;
+  background: url("../images/Continente/Asia/China.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 191px;
+  left: 206px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_131 {
+  /* 22 _ Pais: Vietnã  -> .v1_131*/
+  width: 84px;
+  height: 134px;
+  background: url("../images/Continente/Asia/Vietnã.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 346px;
+  left: 312px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_132 {
+  /* 23 _ Pais: India  -> .v1_132*/
+  width: 166px;
+  height: 171px;
+  background: url("../images/Continente/Asia/India.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 276px;
+  left: 156px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_133 {
+  /* 24 _ Pais: Vladvostok  -> .v1_133*/
+  width: 264px;
+  height: 246px;
+  background: url("../images/Continente/Asia/Vladvostok.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 54px;
+  left: 293px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_134 {
+  /* 25 _ Pais: Mongólia  -> .v1_134*/
+  width: 138px;
+  height: 63px;
+  background: url("../images/Continente/Asia/Mongólia.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 202px;
+  left: 237px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_135 {
+  /* 26 _ Pais: Omsk  -> .v1_135*/
+  width: 174px;
+  height: 220px;
+  background: url("../images/Continente/Asia/Omsk.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 78px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_136 {
+  /* 27 _ Pais: Dudinka  -> .v1_136*/
+  width: 167px;
+  height: 212px;
+  background: url("../images/Continente/Asia/Dudinka.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 112px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_137 {
+  /* 28 _ Pais: Sibéria  -> .v1_137*/
+  width: 153px;
+  height: 123px;
+  background: url("../images/Continente/Asia/Sibéria.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 213px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_138 {
+  /* 29 _ Pais: Thita  -> .v1_138*/
+  width: 180px;
+  height: 81px;
+  background: url("../images/Continente/Asia/Thita.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 127px;
+  left: 214px;
+  border: 1px solid rgba(199,155,47,1);
+}
+.v1_139 {
+  /* Continente: Africa  -> .v1_139*/
+  width: 314px;
+  height: 396px;
+  background: url("../images/Continente/_Continentes/Africa.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 460px;
+  overflow: hidden;
+}
+.v1_140 {
+  /* 30 _ Pais: Madagascar  -> .v1_140*/
+  width: 45px;
+  height: 74px;
+  background: url("../images/Continente/Africa/Madagascar.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 283px;
+  left: 260px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_141 {
+  /* 31 _ Pais: Argélia  -> .v1_141*/
+  width: 150px;
+  height: 189px;
+  background: url("../images/Continente/Africa/Argélia.svg") no-repeat center center;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_142 {
+  /* 32 _ Pais: Egito  -> .v1_142*/
+  width: 122px;
+  height: 81px;
+  background: url("../images/Continente/Africa/Egito.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 126px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_143 {
+  /* 33 _ Pais: Sudão  -> .v1_143*/
+  width: 182px;
+  height: 195px;
+  background: url("../images/Continente/Africa/Sudão.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 85px;
+  left: 132px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_144 {
+  /* 34 _ Pais: Congo  -> .v1_144*/
+  width: 107px;
+  height: 123px;
+  background: url("../images/Continente/Africa/Congo.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 182px;
+  left: 115px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_145 {
+  /* 35 _ Pais: Africa do Sul  -> .v1_145*/
+  width: 136px;
+  height: 131px;
+  background: url("../images/Continente/Africa/Africa\ do\ Sul.svg") no-repeat center center;
+  opacity: 1;
+  position: absolute;
+  top: 265px;
+  left: 126px;
+  border: 1px solid rgba(66,40,91,1);
+}
+.v1_146 {
+  /* Continente: Europa  -> .v1_146*/
+  width: 336px;
+  height: 261px;
+  background: url("../images/Continente/_Continentes/Europa.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 455px;
+  overflow: hidden;
+}
+.v1_147 {
+  /* 36 _ Pais: Islandia  -> .v1_147*/
+  width: 47px;
+  height: 29px;
+  background: url("../images/Continente/Europa/Islandia.svg");
+  opacity: 1;
+  position: absolute;
+  top: 75px;
+  left: 29px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_148 {
+  /* 37 _ Pais: Inglaterra  -> .v1_148*/
+  width: 48px;
+  height: 48px;
+  background: url("../images/Continente/Europa/Inglaterra.svg");
+  opacity: 1;
+  position: absolute;
+  top: 125px;
+  left: 0px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_149 {
+  /* 38 _ Pais: França  -> .v1_149*/
+  width: 115px;
+  height: 90px;
+  background: url("../images/Continente/Europa/França.svg");
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 57px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_150 {
+  /* 39 _ Pais: Alemanha  -> .v1_150*/
+  width: 55px;
+  height: 92px;
+  background: url("../images/Continente/Europa/Alemanha.svg");
+  opacity: 1;
+  position: absolute;
+  top: 109px;
+  left: 108px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_151 {
+  /* 40 _ Pais: Suecia  -> .v1_151*/
+  width: 109px;
+  height: 109px;
+  background: url("../images/Continente/Europa/Suecia.svg");
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 106px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_152 {
+  /* 41 _ Pais: Polonia  -> .v1_152*/
+  width: 74px;
+  height: 130px;
+  background: url("../images/Continente/Europa/Polonia.svg");
+  opacity: 1;
+  position: absolute;
+  top: 131px;
+  left: 150px;
+  border: 1px solid rgba(10,106,174,1);
+}
+.v1_153 {
+  /* 42 _ Pais: Russia  -> .v1_153*/
+  width: 168px;
+  height: 243px;
+  background: url("../images/Continente/Europa/Russia.svg");
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 169px;
+  border: 1px solid rgba(10,106,174,1);
+}
+
+/* Identificadores numéricos: adiciona um badge com número a cada elemento gerado pelo Figma
+   Mapeamento: número -> classe (ordem de aparecimento no DOM dentro de `.v4_2`)
+   Nota: Contêineres de continentes (.v1_106, .v1_116, .v1_121, .v1_126, .v1_139, .v1_146) NÃO são numerados.
+
+   1  -> .v1_107 (Ottawa)
+   2  -> .v1_108 (Vancouver)
+   3  -> .v1_109 (Mackenzie)
+   4  -> .v1_110 (Alaska)
+   5  -> .v1_111 (Labrador)
+   6  -> .v1_112 (Califórnia)
+   7  -> .v1_113 (Mexico)
+   8  -> .v1_114 (Nova Iorque)
+   9  -> .v1_115 (Groenlândia)
+   10 -> .v1_117 (Colômbia)
+   11 -> .v1_118 (Brasil)
+   12 -> .v1_119 (Argentina)
+   13 -> .v1_120 (Chile)
+   14 -> .v1_122 (Borneo)
+   15 -> .v1_123 (Australia)
+   16 -> .v1_124 (Sumatra)
+   17 -> .v1_125 (Nova Guiné)
+   18 -> .v1_127 (Japão)
+   19 -> .v1_128 (Oriente Medio)
+   20 -> .v1_129 (Aral)
+   21 -> .v1_130 (China)
+   22 -> .v1_131 (Vietnã)
+   23 -> .v1_132 (India)
+   24 -> .v1_133 (Vladvostok)
+   25 -> .v1_134 (Mongólia)
+   26 -> .v1_135 (Omsk)
+   27 -> .v1_136 (Dudinka)
+   28 -> .v1_137 (Sibéria)
+   29 -> .v1_138 (Thita)
+   30 -> .v1_140 (Madagascar)
+   31 -> .v1_141 (Argélia)
+   32 -> .v1_142 (Egito)
+   33 -> .v1_143 (Sudão)
+   34 -> .v1_144 (Congo)
+   35 -> .v1_145 (Africa do Sul)
+   36 -> .v1_147 (Islandia)
+   37 -> .v1_148 (Inglaterra)
+   38 -> .v1_149 (França)
+   39 -> .v1_150 (Alemanha)
+   40 -> .v1_151 (Suecia)
+   41 -> .v1_152 (Polonia)
+   42 -> .v1_153 (Russia)
+
+   Observações:
+   - A numeração é gerada via CSS counters no fluxo do DOM; se você reorganizar elementos no HTML,
+     os números serão atualizados automaticamente.
+   - Contêineres de continentes não são contados para manter numeração apenas em territórios/regiões.
+*/
+
+.v4_2 { counter-reset: rect; }
+
+/* Contêineres de continentes não devem incrementar o contador */
+.v4_2 .v1_106::after,
+.v4_2 .v1_116::after,
+.v4_2 .v1_121::after,
+.v4_2 .v1_126::after,
+.v4_2 .v1_139::after,
+.v4_2 .v1_146::after {
+  content: none;
+  display: none;
+}
+
+/* Todos os outros elementos recebem numeração */
+.v4_2 [class^="v"]::after {
+  counter-increment: rect;
+  content: counter(rect);
+  position: absolute;
+  top: -18px;
+  left: 4px;
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* Tooltip estilizado usando o atributo data-name. Aparece ao passar o mouse em elementos com data-name. */
+.v4_2 [data-name] {
+  cursor: default;
+}
+.v4_2 [data-name]:hover::before {
+  content: attr(data-name);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  border-radius: 4px;
+  z-index: 10000;
+  pointer-events: none;
+}
+.v4_2 [data-name]:hover::after {
+  /* keep numeric badge; ensure it stays visible above tooltip */
+  z-index: 10001;
+}
+
+/* Remover bordas para elementos cujo background é um SVG de `images/Continente` */
